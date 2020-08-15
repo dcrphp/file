@@ -1,0 +1,19 @@
+{
+    "name": "dcrphp/file",
+    "description": "文件管理及操作",
+    "authors": [
+        {
+            "name": "HuanJun Huang"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DcrPHP\\File\\": "src"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "symfony/filesystem": "*"
+    }
+}
